@@ -1,0 +1,59 @@
+{% extends 'components/public/base.html' %} {% block content %}
+<!-- Jumbotron -->
+<div class="jumbotron">
+  <div class="container">
+    <div class="row flex-column justify-content-center align-items-center gap-4 py-5">
+      <div class="col-5 col-lg-2">
+        <div class="rounded-circle overflow-hidden">
+          <img src="{{ url_for('static', filename='media/avatar.png') }}" class="img-fluid pe-none" alt="Male Avatar" />
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <div class="d-flex flex-column justify-content-center align-items-center text-white gap-3">
+          <div class="d-flex flex-column text-center">
+            <h1 class="fw-bold fs-4 mb-0">Mochamad Nahrul</h1>
+            <p class="fw-light fs-5 mb-0">Web Developer</p>
+          </div>
+          <ul class="list-inline d-flex flex-row gap-3 mb-0">
+            <li class="list-inline-item me-0">
+              <a class="text-decoration-none link-light" href="https://github.com" target="_blank">
+                <i class="fa-brands fa-github fs-5"></i>
+              </a>
+            </li>
+            <li class="list-inline-item me-0">
+              <a class="text-decoration-none link-light" href="https://linkedin.com" target="_blank">
+                <i class="fa-brands fa-linkedin fs-5"></i>
+              </a>
+            </li>
+            <li class="list-inline-item me-0">
+              <a class="text-decoration-none link-light" href="https://instagram.com" target="_blank">
+                <i class="fa-brands fa-instagram fs-5"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End of Jumbotron -->
+
+<!-- About -->
+<div class="about">
+  <div class="container">
+    <div class="row justify-content-center align-items-center py-5">
+      <div class="col-lg-8">
+        <div class="d-flex flex-column gap-3">
+          <h3 class="fw-semibold fs-5 text-center mb-0">About Me</h3>
+          <p class="lh-lg mb-0">
+            I am a final year student at Bina Sarana Informatika University Sukabumi majoring in Computer Science who is interested in Machine Learning, Web Development, and Cloud Computing. Long story short, I started my programming
+            journey at 16, by learning Web Development. So, when I entered college, I had experience and solid understanding the fundamental of Web Development. During my time in college, I started to learn other things, such as Machine
+            Learning and Cloud Computing.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End of About -->
+{% endblock %}

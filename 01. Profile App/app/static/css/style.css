@@ -1,0 +1,9 @@
+body {
+  background: rgb(238, 238, 238);
+}
+
+.jumbotron {
+  background: rgb(55, 59, 68); /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgb(66, 134, 244), rgb(55, 59, 68)); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgb(66, 134, 244), rgb(55, 59, 68)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
